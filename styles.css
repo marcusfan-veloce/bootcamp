@@ -4,7 +4,7 @@ body{
 
     background-color: #FEF2E8;
 
-    overflow: hidden;
+    overflow: auto;
 
     margin: 0;
     padding: 0;
@@ -112,23 +112,18 @@ body{
     justify-content: center;
 }
 
-.card-grid {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: 2;
-    column-gap: 10vw;
+.card-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw;
 }
 
 .coffee-latte-img {
     position: relative;
 }
 
-
-
 #rotate-label, #coffeelatte {
     display: block;
-
-
 }
 
 #rotate-label {
